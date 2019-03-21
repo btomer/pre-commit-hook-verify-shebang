@@ -1,0 +1,6 @@
+- id: verify_shebang
+  name: Verify that shell scripts start with a shebang
+  entry: verify_shebang
+  language: python
+  pass_filenames: true
+  types: ['shell']
